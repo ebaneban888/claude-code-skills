@@ -1,0 +1,8 @@
+{
+  "name": "claude-code-skills",
+  "version": "1.0.0",
+  "description": "A collection of Claude Code skills: keybindings-help, simplify, and claude-api",
+  "author": {
+    "name": "ebaneban888"
+  }
+}
