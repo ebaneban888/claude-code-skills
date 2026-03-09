@@ -10,6 +10,7 @@ A collection of Claude Code skills for common development workflows.
 | **simplify** | Review changed code for reuse, quality, and efficiency, then fix any issues found |
 | **claude-api** | Build apps with the Claude API or Anthropic SDK |
 | **openclaw-whatsapp** | Set up WhatsApp channel on OpenClaw via built-in plugin and QR code linking |
+| **openclaw-nvidia-api** | Configure NVIDIA NIM API models on OpenClaw, fix API format mismatch (OpenAI vs Anthropic) |
 
 ## Installation
 
@@ -25,6 +26,7 @@ These skills are automatically invoked by Claude based on context:
 - **simplify**: Triggered when reviewing recently modified code for quality improvements
 - **claude-api**: Triggered when working with Claude API, Anthropic SDK, or Agent SDK
 - **openclaw-whatsapp**: Triggered when setting up or troubleshooting WhatsApp on OpenClaw
+- **openclaw-nvidia-api**: Triggered when configuring NVIDIA NIM API, troubleshooting 404 errors, or adding NVIDIA models to OpenClaw
 
 ## Project Structure
 
@@ -39,7 +41,9 @@ claude-code-skills/
 │   │   └── SKILL.md
 │   ├── claude-api/
 │   │   └── SKILL.md
-│   └── openclaw-whatsapp/
+│   ├── openclaw-whatsapp/
+│   │   └── SKILL.md
+│   └── openclaw-nvidia-api/
 │       └── SKILL.md
 └── README.md
 ```
