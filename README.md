@@ -11,6 +11,7 @@ A collection of Claude Code skills for common development workflows.
 | **claude-api** | Build apps with the Claude API or Anthropic SDK |
 | **openclaw-whatsapp** | Set up WhatsApp channel on OpenClaw via built-in plugin and QR code linking |
 | **openclaw-nvidia-api** | Configure NVIDIA NIM API models on OpenClaw, fix API format mismatch (OpenAI vs Anthropic) |
+| **ollama-install** | Install and configure Ollama on Linux servers and local machines, manage models and API |
 
 ## Installation
 
@@ -27,6 +28,7 @@ These skills are automatically invoked by Claude based on context:
 - **claude-api**: Triggered when working with Claude API, Anthropic SDK, or Agent SDK
 - **openclaw-whatsapp**: Triggered when setting up or troubleshooting WhatsApp on OpenClaw
 - **openclaw-nvidia-api**: Triggered when configuring NVIDIA NIM API, troubleshooting 404 errors, or adding NVIDIA models to OpenClaw
+- **ollama-install**: Triggered when asking to install Ollama, run LLM models, or configure Ollama API
 
 ## Project Structure
 
@@ -43,7 +45,9 @@ claude-code-skills/
 │   │   └── SKILL.md
 │   ├── openclaw-whatsapp/
 │   │   └── SKILL.md
-│   └── openclaw-nvidia-api/
+│   ├── openclaw-nvidia-api/
+│   │   └── SKILL.md
+│   └── ollama-install/
 │       └── SKILL.md
 └── README.md
 ```
